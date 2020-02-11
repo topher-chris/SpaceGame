@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Character/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Character.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Character.dll": {}
+        }
+      },
+      "Planet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Planet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Planet.dll": {}
+        }
+      },
+      "Spaceship/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Spaceship.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Spaceship.dll": {}
+        }
+      },
+      "TradeGood/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TradeGood.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TradeGood.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Character/1.0.0": {
+      "type": "project",
+      "path": "../Character/Character.csproj",
+      "msbuildProject": "../Character/Character.csproj"
+    },
+    "Planet/1.0.0": {
+      "type": "project",
+      "path": "../Planets/Planet.csproj",
+      "msbuildProject": "../Planets/Planet.csproj"
+    },
+    "Spaceship/1.0.0": {
+      "type": "project",
+      "path": "../Spaceship/Spaceship.csproj",
+      "msbuildProject": "../Spaceship/Spaceship.csproj"
+    },
+    "TradeGood/1.0.0": {
+      "type": "project",
+      "path": "../TradeGood/TradeGood.csproj",
+      "msbuildProject": "../TradeGood/TradeGood.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Character >= 1.0.0",
+      "Planet >= 1.0.0",
+      "Spaceship >= 1.0.0",
+      "TradeGood >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\smith\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\SpaceGame\\SpaceGame.csproj",
+      "projectName": "SpaceGame",
+      "projectPath": "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\SpaceGame\\SpaceGame.csproj",
+      "packagesPath": "C:\\Users\\smith\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\SpaceGame\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\smith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\Character\\Character.csproj": {
+              "projectPath": "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\Character\\Character.csproj"
+            },
+            "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\Planets\\Planet.csproj": {
+              "projectPath": "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\Planets\\Planet.csproj"
+            },
+            "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\Spaceship\\Spaceship.csproj": {
+              "projectPath": "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\Spaceship\\Spaceship.csproj"
+            },
+            "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\TradeGood\\TradeGood.csproj": {
+              "projectPath": "C:\\Users\\smith\\source\\repos\\SpaceGame\\code\\SpaceGame\\TradeGood\\TradeGood.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
